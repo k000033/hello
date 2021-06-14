@@ -100,7 +100,7 @@ Your branch is ahead of 'origin/master' by 2 commits.
 
 【分析】：
 
-如果保证git server上确实已经提交了代码，仅仅只是本地git状态不一致，则可以用以下命令：
+如果保证git server上确实已经提交了代码，仅仅只是本地git状态不一致，则可以用以下命令：...
 
 git fetch - -all
   git pull
