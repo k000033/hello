@@ -1,0 +1,59 @@
+ Git
+ 
+ 版本控制系統
+ 遊戲存檔功能-如果有BUG 可以回朔
+ 共同開發
+
+github 
+
+  遠端 hosting 讓大家方便使用(可以自己host)
+  類似 google drive
+
+
+1.先建資料夾
+2.滑鼠右鍵 點選 git bash
+3.輸入 git init 初始化
+4.建立一個檔案 例:記事本
+5.輸入 git status 查看日前狀態
+6.會有一個 Untracked files ，紅色名子為剛剛建立檔案名稱
+  紅色代表還沒加到Git
+
+7.輸入 git add <檔案名稱> 新增檔案到git
+8.再次輸入 git status 剛剛加入的檔案名稱 會呈現綠色git
+
+9.輸入 git commit -m "訊息" 保存進度，通常訊息會寫這次commit 修改甚麼
+
+10 輸入 git log 可以看之前commit訊息
+
+11 再次輸入 git status 會發現 剛剛commit 的檔案不見了
+
+12 git status 只會顯示 有改過的檔案，還沒存檔的檔案
+
+13.去修改 commit 過後的 檔案 ，再次輸入 git status  就會顯是 modified :檔案名稱
+
+14 如果想要一次把全部的檔案到 git  可以輸入 git add .，.代表目前所在的資料夾
+15 輸入 git status 檢查
+16 輸入 git commit -m "訊息"
+17 輸入 git log 就會出現 2 個 log 訊息
+18 上到 github
+git branch -M main
+19 輸入 git remote add origin https://github.com/k000033/hello.git ， hello.git 專案名稱 ，origin 自訂名稱
+20 輸入 git remote 會列出 所有 remote
+21 輸入 git push -u origin main，-u 把預設的remote 設成 origin 未來 push 如果不指定 remote 都會推到　origin
+22 出現 failed to push some refs to 錯誤訊息 是因為沒有 README 文件 就要輸入 echo "# bbbbbb" >> README.md
+23 下載 git clone 網址
+
+
+第一次
+echo "# bbbbbb" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/k000033/bbbbbb.git
+git push -u origin main
+
+之後
+git remote add origin https://github.com/k000033/021224225.git
+git branch -M main
+git push -u origin main
