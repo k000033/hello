@@ -43,7 +43,7 @@ git branch -M main
 22 出現 failed to push some refs to 錯誤訊息 是因為沒有 README 文件 就要輸入 echo "# bbbbbb" >> README.md
 23 下載 git clone 網址
 
-
+ 
 第一次
 echo "# bbbbbb" >> README.md
 git init
