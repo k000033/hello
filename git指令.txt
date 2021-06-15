@@ -1,0 +1,38 @@
+1.初始化 Git Repository        
+  -- git init
+
+2.觀察 Repository 檔案追蹤狀況 
+  -- git status
+
+3.將檔案加入追蹤(index)清單    
+  -- git add 檔名  (單一檔案)
+  -- git add .  (所有檔案)
+
+4.建立一組版本更新(Commitment) 
+  -- git commit -m "版本更新訊息"
+
+5.查看分支(Branch)
+  -- git branch
+
+6.查看版本紀錄
+  -- git log
+
+7.查看遠端的Repository
+  -- git remote -v
+
+8.加入遠端的Repository (只要做一次)
+  -- git remote add 遠端空間的名稱(自取) 網址
+
+9.第一次下載 GitHub 雲端專案
+  -- git clone 遠端空間的網址 本機資料夾名稱(可以省)
+
+10. 從GitHub 雲端專案下載合併跟新
+  -- git pull 遠端空間的名稱 遠端空間的分支
+
+命令代號
+
+1.切換磁碟機
+  -- 磁碟機代碼 :  (C:)
+
+2.切換路徑
+  -- cd 資料夾路徑
