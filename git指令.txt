@@ -27,7 +27,7 @@
   --git checkout -b newlocalbranchname origin/branch-name
  
   
-
+ 
 6.查看版本紀錄
   -- git log
 
