@@ -28,6 +28,16 @@
  
   
  
+******遇到問題
+Q:# Your branch and 'origin/master' have diverged,
+  # and have 3 and 8 different commits each, respectively.
+  #   (use "git pull" to merge the remote branch into yours)
+
+A:git fetch origin
+  git reset --hard origin/master
+  重新 git pull
+
+
 6.查看版本紀錄
   -- git log
 
