@@ -1,4 +1,4 @@
-1.初始化 Git Repository        
+﻿1.初始化 Git Repository        
   -- git init
 
 2.觀察 Repository 檔案追蹤狀況 
@@ -13,6 +13,19 @@
 
 5.查看分支(Branch)
   -- git branch
+  新增分之
+  -- git branch cat (新增 cat分之)
+  分之改名
+  -- git branch -m cat tiger(cat 改名 tiger)
+  刪除分之
+  -- git branch -d cat
+  切換分之
+  -- git checkout cat
+  新增分之並切換
+  -- git checkout -b cat
+  從github 下載分之
+  --git checkout -b newlocalbranchname origin/branch-name
+  
 
 6.查看版本紀錄
   -- git log
