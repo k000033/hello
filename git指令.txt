@@ -37,6 +37,22 @@ A:git fetch origin
   git reset --hard origin/master
   重新 git pull
 
+Q:$ git push
+    To https://github.com/eddiekao/dummy-git.git
+    ! [rejected]        master -> master (fetch first)
+    error: failed to push some refs to 'https://github.com/eddiekao/dummy-git.git'
+    hint: Updates were rejected because the remote contains work that you do
+    hint: not have locally. This is usually caused by another repository pushing
+    hint: to the same ref. You may want to first integrate the remote changes
+    hint: (e.g., 'git pull ...') before pushing again.
+    hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+    這段訊息的意思是線上版本的內容比你電腦裡這份還要新，所以 Git 不讓你推上去。
+
+A:先拉再推
+  $ git pull --rebase
+  $ push
+  強迫上傳
+  $ git push -f
 
 6.查看版本紀錄
   -- git log
