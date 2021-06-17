@@ -40,12 +40,16 @@
 
 10. 從GitHub 雲端專案下載合併跟新
   -- git pull 遠端空間的名稱 遠端空間的分支
+  -- git pull
+  -- git pull origin branchname
 
 11 合併
   -- git merge branchname
   -- git merge branchname --no-ff 非快轉
 
-
+12 上傳到 GitHub
+  -- git push
+  -- git push origin branchname
 
 ******遇到問題
 Q:# Your branch and 'origin/master' have diverged,
