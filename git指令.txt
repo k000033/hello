@@ -51,6 +51,12 @@
   -- git push
   -- git push origin branchname
 
+13.回到上一個Commit
+  -- git reset Head^ (回到上一步)
+  -- git reset master^
+  -- git reset Head~5(倒退五次)
+  -- git reset commit_ID
+
 ******遇到問題
 Q:# Your branch and 'origin/master' have diverged,
   # and have 3 and 8 different commits each, respectively.
