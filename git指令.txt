@@ -70,6 +70,7 @@
 16.上傳+連結
   -- git push --set-upstream-to=origin/feature2 feature2
 
+17.建立 .gitignore 名稱的檔案 ，內容填入 不要上 github 的檔案名稱
 ******連結
 
 1.git Local 端與 Remote 端的分支操作
