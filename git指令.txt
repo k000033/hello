@@ -13,6 +13,10 @@
 
 5.查看分支(Branch)
   -- git branch
+  查看local remoter branch的關係
+  針對 behind ，代表 local 端太舊，可能就 git pull一下，更新下 local端。
+  針對 ahead ，代表 local 端更新了，可以 git push 更新 remote 端
+  -- git branch -vv
   新增分之
   -- git branch cat (新增 cat分之)
   分之改名
