@@ -46,7 +46,7 @@
   -- git pull 遠端空間的名稱 遠端空間的分支
   -- git pull
   -- git pull origin branchname
-
+  -- git pull --rebase
 11 合併
   -- git merge branchname
   -- git merge branchname --no-ff 非快轉
@@ -54,6 +54,7 @@
 12 上傳到 GitHub
   -- git push
   -- git push origin branchname
+  -- git push origin branchname --no-ff
 
 13.回到上一個Commit
   -- git reset Head^ (回到上一步)
@@ -71,6 +72,10 @@
   -- git push --set-upstream-to=origin/feature2 feature2
 
 17.建立 .gitignore 名稱的檔案 ，內容填入 不要上 github 的檔案名稱
+
+18.git fetch 從遠端拉回分支  origin/name
+   git pull = git fetch + git merge
+   
 ******連結
 
 1.git Local 端與 Remote 端的分支操作
